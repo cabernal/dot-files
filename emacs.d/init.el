@@ -13,8 +13,8 @@
     evil))
 
 (defun missing-packages ()
-  (cl-remove-if nil 
-		(mapcar 
+  (cl-remove-if nil
+		(mapcar
 		 (lambda (x) (when (not (package-installed-p x)) x))
 		 required-packages)))
 
