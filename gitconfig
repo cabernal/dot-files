@@ -4,5 +4,5 @@
 [color]
 	ui = auto
 [alias]
-  sm = show --pretty="format:" --name-only
-  lg = log --graph --decorate --oneline --abbrev-commit --all
+        sm = show --pretty="format:" --name-only
+        lg = log --graph --decorate --oneline --abbrev-commit --all
