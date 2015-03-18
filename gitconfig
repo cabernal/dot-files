@@ -1,0 +1,8 @@
+[user]
+	email = camilobern@gmail.com
+	name = Camilo Bernal Galindo
+[color]
+	ui = auto
+[alias]
+  sm = show --pretty="format:" --name-only
+  lg = log --graph --decorate --oneline --abbrev-commit --all
