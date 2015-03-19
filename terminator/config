@@ -3,7 +3,7 @@
   title_hide_sizetext = True
   always_split_with_profile = True
   handle_size = 1
-  borderless = True
+  borderless = False
 [keybindings]
 [profiles]
   [[default]]
@@ -14,7 +14,7 @@
     foreground_color = "#bbc9cb"
     show_titlebar = False
     delete_binding = ascii-del
-    font = Inconsolata Medium 8
+    font = Inconsolata Medium 9
     background_color = "#002b36"
     scrollback_infinite = True
 [layouts]

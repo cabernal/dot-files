@@ -6,3 +6,5 @@
 [alias]
         sm = show --pretty="format:" --name-only
         lg = log --graph --decorate --oneline --abbrev-commit --all
+[core]
+	editor = vim
