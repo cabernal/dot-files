@@ -78,4 +78,5 @@ This functions should be added to the hooks of major modes for programming."
 (load-theme 'solarized-dark t)
 
 ;;Set default font
-(set-default-font "Inconsolata 8")
+(set-default-font "Inconsolata")
+(set-face-attribute 'default nil :height 100)

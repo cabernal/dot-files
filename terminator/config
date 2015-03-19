@@ -14,7 +14,7 @@
     foreground_color = "#bbc9cb"
     show_titlebar = False
     delete_binding = ascii-del
-    font = Inconsolata Medium 9
+    font = Inconsolata Medium 11
     background_color = "#002b36"
     scrollback_infinite = True
 [layouts]
