@@ -51,7 +51,7 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-#alias ll='ls -l'
+alias ll='ls -l'
 #alias la='ls -A'
 #alias l='ls -CF'
 
@@ -93,4 +93,9 @@ if ! shopt -oq posix; then
   elif [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
   fi
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
 fi

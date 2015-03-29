@@ -3,3 +3,4 @@ xfsettingsd
 xscreensaver &
 xfce4-power-manager
 nm-applet &
+xbindkeys

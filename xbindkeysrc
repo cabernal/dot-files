@@ -1,0 +1,16 @@
+# xbindkeys configuration file
+# * assume xbindkeys installed
+# * context and keycode provided by xev
+
+# Increase volume
+#    m:0x0 + c:123
+"amixer -c 0 set Master 5+"
+    XF86AudioRaiseVolume
+
+# Decrease volume
+#    m:0x0 + c:122
+"amixer -c 0 set Master 5-"
+    XF86AudioLowerVolume
+
+#amixer -c 0 set Master toggle
+
