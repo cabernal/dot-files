@@ -77,6 +77,11 @@ This functions should be added to the hooks of major modes for programming."
 ;; Load theme
 (load-theme 'solarized-dark t)
 
-;;Set default font
+;; Set default font
 (set-default-font "Inconsolata")
 (set-face-attribute 'default nil :height 100)
+
+;; Set indentation rules
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
+(setq tab-width 4)

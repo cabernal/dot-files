@@ -1,6 +1,6 @@
 xsetroot -solid "#333333"
 xfsettingsd
-xscreensaver &
+#xscreensaver &
 xfce4-power-manager
 nm-applet &
 xbindkeys
