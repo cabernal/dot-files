@@ -100,3 +100,5 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
     export PATH
 fi
+
+export LD_LIBRARY_PATH=/usr/local/lib

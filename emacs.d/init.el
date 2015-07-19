@@ -5,7 +5,7 @@
   '(monokai-theme
     solarized-theme
     ;clojure-mode
-    cider
+    ;cider
     ;magit
     ;paredit
     ;powerline
@@ -40,11 +40,9 @@
       (mapcar 'package-install p)
       (message "%s" "Done.")))
 
-
-  ;;enable evil
   (require 'evil)
-  (evil-mode 1)
-)
+  (evil-mode 1))
+
 
 ;; Custom config
 
@@ -65,7 +63,7 @@
 (defun font-lock-comment-annotations ()
   "Highlight a bunch of well known comment annotations.
 
-This functions should be added to the hooks of major modes for programming."
+This function should be added to the hooks of major modes for programming."
   (font-lock-add-keywords
    nil '(("\\<\\(FIX\\(ME\\)?\\|TODO\\|OPTIMIZE\\|HACK\\|REFACTOR\\):"
           1 font-lock-warning-face t))))
